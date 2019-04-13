@@ -1,8 +1,7 @@
-## lazymux.py - Lazymux v3.0
-# -*- coding: utf-8 -*-
-##
-import os
-import sys
+python2 lazymux2.py## python2 lazymux2.pylazymux.py - Lazymux v3.0
+# - * - การเข้ารหัส:
+นำเข้าระบบ ปฏิบัติกา
+ sys นำเข้า
 from time import sleep as timeout
 from core.lzmcore import *
 
@@ -19,7 +18,7 @@ def main():
 	print "   [10] Exit the Lazymux\n"
 	lazymux = raw_input("lzmx > ")
 	
-	if lazymux == "1" or lazymux == "01":
+	if              lazymux              ==              "1"              หรือ lazymux              ==              "01" :
 		print "\n    [01] Nmap"
 		print "    [02] Red Hawk"
 		print "    [03] D-Tect"
@@ -85,7 +84,7 @@ def main():
 		elif infogathering == "17":
 			striker()
 		elif infogathering == "18":
-			xshell()
+			xshell ()
 		elif infogathering == "19":
 			owscan()
 		elif infogathering == "20":
