@@ -158,28 +158,29 @@ def crips():
 	os.system("git clone https://github.com/Manisso/Crips")
 	os.system("mv Crips ~")
 	print '###### Done'
-	backtomenu_option()
-
-def sir():
-	print '\n###### Installing SIR'
+	backtomenu_option ()
+C
+def    คุณ (): D
+	พิมพ์ '\ n ###### การติดตั้ง SIR
 	os.system("apt update && apt upgrade")
 	os.system("apt install python2 git")
 	os.system("pip2 install bs4 urllib2")
 	os.system("git clone https://github.com/AeonDave/sir.git")
 	os.system("mv sir ~")
 	print '###### Done'
-	backtomenu_option()
-
-def xshell():
-	print '\n###### Installing Xshell'
-	os.system("apt update && apt upgrade")
-	os.system("apt install lynx python2 figlet ruby php nano w3m")
+	backtomenu_option ()
+ร
+def   xshel ():l
+	พิมพ์ '
+	\ n ###### การติดตั้ง Xshell '
+	ระบบปฏิบัติการ ระบบ ( "apt update && apt upgrade" 
+	ระบบปฏิบัติการ ระบบ ( "ติดตั้ง apt lynx python2 figlet ruby php nano) c
 	os.system("git clone https://github.com/Ubaii/Xshell")
 	os.system("mv Xshell ~")
 	print '###### Done'
-	backtomenu_option()
+	backtomenu_option ()
 
-def evilURL():
+def   evilURL ():
 	print '\n###### Installing EvilURL'
 	os.system("apt update && apt upgrade")
 	os.system("apt install git python2 python3")
